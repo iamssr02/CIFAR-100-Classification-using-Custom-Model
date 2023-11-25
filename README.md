@@ -20,7 +20,7 @@ The model is built upon the ResNet architecture with the incorporation of dropou
 Data augmentation is employed using TensorFlow's ImageDataGenerator for training enhancement. Augmentation includes rotation, width shift, height shift, and horizontal flip.
 
 ## Training
-Train the model by running the provided IPython notebook (model.ipynb). Adjust hyperparameters as needed. 
+The model is trained using the Adam optimizer, a popular optimization algorithm, with categorical cross-entropy as the loss function. 
 
 ## Results
 After 30 epochs with a batch size of 64, the model achieves an accuracy of 62.55% on the test set. Refer to the notebook for detailed evaluation metrics.
